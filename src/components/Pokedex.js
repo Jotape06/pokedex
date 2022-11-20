@@ -14,7 +14,7 @@ const Pokedex = () => {
                 name: 'Bulbasaur',
                 id: 1
             })
-    }, [])
+    }, [setPoke])
 
     const handleSubmit = async (e) => {
         e.preventDefault()
